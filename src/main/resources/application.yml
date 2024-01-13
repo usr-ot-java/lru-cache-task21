@@ -1,0 +1,7 @@
+cache:
+  capacity: 5 # Capacity of the cache
+  persist:
+    time: 10 # Max amount of time before the data is persisted
+    path: cache-data-persist # Persistent storage path
+  init:
+    path: data/cache-data-init # Path to the persistent storage to initialize cache
